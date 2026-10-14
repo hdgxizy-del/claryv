@@ -1,0 +1,16 @@
+{
+  "schemaVersion": 1,
+  "id": "claryvisuals",
+  "version": "${version}",
+  "name": "Clary Visuals",
+  "description": "Purple visual customization menu for Minecraft Java 1.21.5.",
+  "authors": ["Clary"],
+  "environment": "client",
+  "entrypoints": { "client": ["com.clary.visuals.ClaryVisuals"] },
+  "depends": {
+    "fabricloader": ">=0.16.10",
+    "minecraft": "1.21.5",
+    "java": ">=21",
+    "fabric-api": "*"
+  }
+}
